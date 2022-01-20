@@ -49,9 +49,14 @@ content: "🐅";
   /* ::first-letter (:first-letter) */
   p::first-letter {
       color: var(--other-color);
+      font-size: var(--my-font-size) * 1);
   }
   
   /* display:none vs opacity: 0 */
+  .building {
+      width: 15vw;
+      height: 15vh;
+  }
   
   /* vh & vw */
   
