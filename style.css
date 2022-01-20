@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
   :root {
-        --my-color: blue; 
+        --my-color: rgb(228, 13, 127); 
         --my-font-size: 3rem;
         --other-color: rgba(222, 33, 5, 0.5);
         --header-font-family: "Lucida Sans" Geneva, Verdana, sans-serif;
@@ -41,8 +41,15 @@ content: "🐅";
     }
   
   /* ::placeholder  */
+  input[type="text"]::placeholder{
+      color: var(--my-color);
+
+  }
   
   /* ::first-letter (:first-letter) */
+  p::first-letter {
+      color: var(--other-color);
+  }
   
   /* display:none vs opacity: 0 */
   
