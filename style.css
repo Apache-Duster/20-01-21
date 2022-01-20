@@ -18,6 +18,7 @@
       border: 2px var(--my-color)solid;
   }
   /* pseudo elements VS  pseudo classes */
+
   
   /* pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s). */
   /* more pseudo classes
@@ -30,6 +31,14 @@
   /*   
       :before css2 and ::before is css3
     */
+
+    h1:after{
+        content: "🐯"
+    }
+    h1:before{
+content: "🐅";
+    }
+    }
   
   /* ::placeholder  */
   
